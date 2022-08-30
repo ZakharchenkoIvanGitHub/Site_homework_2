@@ -1,0 +1,49 @@
+.carousel-item img{
+    height: 500px;
+    object-fit: cover;
+}
+
+.carousel-item{
+    position: relative;
+}
+
+.content{
+ position: absolute;
+ left: 10%;
+ bottom: 20%;
+ max-width: 800px; 
+ z-index: 2;
+ color: white;
+ 
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    opacity: 0.5;
+}
+
+.bc{
+    background-color:darkgrey;
+}
+
+.pb{  padding-bottom: calc(var(--bs-gutter-x) * .5);}
+
+.card-trans:hover{
+    transform: scale(1.6);
+    z-index:100;
+}
+
+.card-trans{
+    transition: transform 0.4s;
+}
+
+.img-scale{
+    transform: scale(0.5);
+}
+
+.footer-text{
+    text-align: center;
+}

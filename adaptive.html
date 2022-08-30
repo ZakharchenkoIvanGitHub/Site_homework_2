@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image" href='img\icon_lake.png'>
+    <title>Практическая работа 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+  <body class="bc">
+
+
+<!-- Шапка -->
+    <nav class="navbar navbar-expand-lg bg-light  navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Панель навигации</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Главная</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Рекомендуемые</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Цена</a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+<!-- Карусель -->
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="content">
+            <h1>Черное озеро</h1>
+            <p>Озеро Черное приурочено к выходам гипсовых горных пород. Расположено в 3 км к востоку от села Горного Лабинского района, на высоте 785 м над уровнем моря, наибольшая длина составляет 450 м, ширина 200 м. Максимальная глубина не превышает 8 м
+            </p>
+            <button type="button" class="btn btn-dark">Поехали</button>
+            </div>
+            <div class="overlay"></div>
+            <img src="img/black_lake_1.jpg" class="d-block w-100" alt="фото 1">
+        </div>
+
+          <div class="carousel-item">
+           <div class="content">
+            <h1>Черное озеро</h1>
+            <p>Вокруг растут буковый и дубовый леса. Особый пейзаж создают плакучие ивы, склонившиеся над водной гладью. Озеро зарыблено.
+            </p>
+            <button type="button" class="btn btn-dark">Поехали</button>
+            </div>
+            <div class="overlay"></div>
+            <img src="img/black_lake_2.jpg" class="d-block w-100" alt="фото 2">
+          </div>
+
+          <div class="carousel-item">
+            <div class="content">
+              <h1>Круглое озеро</h1>
+              <p>Расположено в 6 км юго-восточнее станицы Ахметовской, на хребте Черноморском, на высоте 790 м, на дне глубокой карстовой воронки. Размеры озера 240 м х 123 м, глубина до 18 м. Питание за счет подземных и поверхностных вод. Вода очень прозрачная, дно видно до 6 м глубиной
+              </p>
+              <button type="button" class="btn btn-dark">Поехали</button>
+              </div>
+              <div class="overlay"></div>
+            <img src="img/round_lake_1.jpg" class="d-block w-100" alt="фото 3">
+          </div>
+
+          <div class="carousel-item">
+            <div class="content">
+            <h1>Круглое озеро</h1>
+            <p>Озеро и лес, словно помогают друг другу: вода смягчает микроклимат и питает деревья, а те в ответ укрепляют берега и не дают распространяться илу. В октябре желтое одеяние леса особенно красиво контрастирует с малахитовым оттенком озера. В озере водится рыба (карась), рыбалка выйдет на славу. Среди жителей ближайших окрестностей эти места очень популярны.
+            </p>
+            <button type="button" class="btn btn-dark">Поехали</button>
+            </div>
+            <div class="overlay"></div>
+            <img src="img/round_lake_2.jpg" class="d-block w-100" alt="фото 4">
+          </div>
+ 
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Предыдущий</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Следующий</span>
+        </button>
+      </div>
+<!-- Блок текста -->
+      <div class="container">
+      <p><b>  Лабинский район расположен в предгорной зоне северного склона Главного Кавказского хребта. Его климат и природное разнообразие существенно отличается от равнинных районов края. Климат района умеренно-континентальный. Население города и района составляет около 100 тысяч человек.</b></p>
+      </div>
+<!-- Фото в сетке -->
+      <div class="container">
+        <div class="row">
+      
+      <div class=" col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 pb">   
+      <div class="card ">
+        <img src="img/pic1.jpg" class="card-img-top card-trans" alt="фото">
+      </div>
+      </div> 
+
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 pb">  
+      <div class="card " >
+        <img src="img/pic2.jpg" class="card-img-top card-trans" alt="фото">
+      </div>
+    </div>
+
+
+    <div class=" col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 pb" >  
+      <div class="card " >
+        <img src="img/pic3.jpg" class="card-img-top card-trans" alt="фото">
+      </div>
+    </div>
+
+    <div class=" col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 pb">  
+      <div class="card" >
+        <img src="img/pic4.jpg" class="card-img-top card-trans" alt="фото">
+      </div>
+    </div>
+
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 pb">  
+      <div class="card" >
+        <img src="img/pic5.jpg" class="card-img-top card-trans" alt="фото">
+      </div>
+    </div>
+
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 pb">  
+      <div class="card" >
+        <img src="img/pic6.jpg" class="card-img-top card-trans" alt="фото">
+      </div>
+    </div>
+
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 pb">  
+      <div class="card" >
+        <img src="img/pic7.jpg" class="card-img-top card-trans" alt="фото">
+      </div>
+    </div>
+
+      <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 pb">  
+      <div class="card" >
+        <img src="img/pic8.jpg" class="card-img-top card-trans" alt="фото">
+      </div>
+    </div>
+
+    </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+    
+        <div class=" col-3">   
+          <div class="card ">
+            <img src="img/pic_lab.jpg" class="card-img-top" alt="фото">
+    </div>
+      </div>
+
+      <div class=" col-9">   
+        <div class="card bc">
+          <p>Лаби́нск — город в Краснодарском крае. Является бальнеологическим курортом местного значения. Был основан казаками в годы Кавказской войны и много лет оставался казачьей станицей. Сегодня о тех временах напоминают остатки крепостей, казацкие хаты и бесчисленные монументы. Туристам будет интересно совершить экскурсию по земле настоящих казаков.</p>
+  </div>
+    </div>
+    
+        </div>
+          </div>        
+
+  <footer class="border-top">
+    
+
+      <div>
+       <h5 class="footer-text"> Социальные сети</h5>
+      </div>
+
+         <div>
+            <a href="#">
+              <img src="img/Facebook_black.png" alt="Facebook" class="img-scale" >
+            </a>
+          
+            <a href="#">
+              <img src="img/Instagram_black.png" alt="Instagram" class="img-scale">
+            </a>
+    
+            <a href="#">
+              <img src="img/Ok_black.png" alt="Ok_black" class="img-scale">
+            </a>
+   
+            <a href="#">
+              <img src="img/Telegram_black.png" alt="Telegram" class="img-scale">
+            </a>
+     
+            <a href="#">
+              <img src="img/VK_black.png" alt="VK" class="img-scale">
+            </a>
+           
+            <a href="#">
+              <img src="img/WhatsApp_black.png" alt="WhatsApp" class="img-scale" >
+            </a>
+       </div>
+
+  </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+
+
+
+</body>
+</html>
